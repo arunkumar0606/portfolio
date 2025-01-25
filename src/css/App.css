@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.pic{
-  width:200px;
-  height:auto;
-  border-radius:10px;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
