@@ -27,7 +27,7 @@ function Aboutme() {
             </a>
             <p class="mt-2   text-white text-center font-cabin font-bold uppercase opacity-80 hover:opacity-100 transition-opacity duration-700">
               Software Engineer with over 2.5+ years of experience. Started my career as a Java backend developer and have gained proficiency in multiple technologies and development environments. Throughout my career, I have worked with various clients, solving complex technical problems, and consistently delivering high-quality, scalable code. I have developed a strong understanding of software development life cycle (SDLC), from design to deployment, while ensuring optimal performance and user experience.
-              I believe that technical skills are just a tool, and the true key to success lies in the ability to identify the root cause of problems.
+              I believe that technical skills are just a tool, and the true key to success lies in the ability to identify the root cause of any problems.
             </p>
           </div>dc
         </div>
