@@ -1,14 +1,29 @@
 .pic{
     width:200px;
     height:auto;
-    
+    display: flex;
     border-radius:10px;
+    margin-left: 100px;
+  }
+ .picContent{
+  line-height: 1.5;
+  }
+  
+  .heading{
+    align-items:start;
   }
 
   .container {
+    padding-top: 25px;
     display: flex; /* Enable Flexbox */
     align-items: center; /* Align items vertically */
-    justify-content: space-between; /* Optional: Space between the items */
-    gap: 20px; /* Add spacing between photo and text */
+    gap: 5px; /* Add spacing between photo and text */
+
+  }
+
+  @media(min-width: 768px){
+    .container{
+      gap: 5px;
+    }
   }
   
