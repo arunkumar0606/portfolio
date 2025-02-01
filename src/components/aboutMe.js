@@ -1,7 +1,6 @@
 import "../css/aboutMe.css";
 import React from "react";
-
-
+import { aboutMe } from "../data/data";
 
 function Aboutme() {
 
@@ -12,28 +11,33 @@ function Aboutme() {
         <meta name="description" content="any description" />
       </p>
 
-      <div class="mx-auto max-w-30 pt-5 overflow-hidden rounded-xl shadow-md md:max-w-5xl">
-        <div class="md:flex">
-          <div class="md:shrink-0">
-            <img
-              class="h-full w-full object-cover md:h-72 md:w-80 mt-14 p-1 border-2 border-white rounded-lg"
-              src={'/Arun.jpeg'}
-              alt="profile pic"
+
+      <div class="pb-[100px] bg-gray-100  ">
+        <div class="text-black p-4 md:text-6xl sm:text-6xl text-4xl text-center font-bold font-cabin hover:underline transition:300">
+          <p >
+            More About me
+          </p>
+        </div>
+
+        <div className="flex flex-col md:flex-row items-center justify-center bg-gray-100 p-2 md:px-2">
+
+          <div className=" md:w-[330px] ">
+            <img src={'/Arun.jpeg'}
+              alt="Example"
+              className="w-full md:h-[320px]  border-8 hover:scale-105 border-black rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 "
             />
           </div>
-          <div class="p-12">
-            <a href="#" class="mt-1 text-2xl font-cabin font-bold uppercasetext-lg flex items-center justify-center leading-tight text-green-500 ">
-              ABOUT ME
-            </a>
-            <p class="mt-2   text-white text-center font-cabin font-bold uppercase opacity-80 hover:opacity-100 transition-opacity duration-700">
-              Software Engineer with over 2.5+ years of experience. Started my career as a Java backend developer and have gained proficiency in multiple technologies and development environments. Throughout my career, I have worked with various clients, solving complex technical problems, and consistently delivering high-quality, scalable code. I have developed a strong understanding of software development life cycle (SDLC), from design to deployment, while ensuring optimal performance and user experience.
-              I believe that technical skills are just a tool, and the true key to success lies in the ability to identify the root cause of any problems.
+
+          <div className="w-full md:w-[820px] md:pl-10   md:p-20 p-2 align-left">
+            <p className="text-black font-cabin font-bold md:text-2xl text-center md:text-left">
+              {aboutMe}
             </p>
-          </div>dc
+
+          </div>
+
         </div>
+
       </div>
-
-
 
     </>
   )

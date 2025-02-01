@@ -1,17 +1,21 @@
 import { BrowserRouter } from 'react-router-dom';
 import './css/App.css';
 import NavBar from './components/navBar';
+import Intro from './components/intro';
 import Aboutme from './components/aboutMe';
 import TaskBar from './components/taskBar';
+
 function App() {
   return (
     <BrowserRouter>
-     <div className="min-h-screen bg-black">
+     <div className="min-h-screen ">
 
         <NavBar />
+        
+        <Intro />
+        
 
         <Aboutme />    
-        <p>Follow me:       <a href="https://www.linkedin.com/in/arunkumard0606/" > Linkdin</a> </p>
   
         <TaskBar/>
         
