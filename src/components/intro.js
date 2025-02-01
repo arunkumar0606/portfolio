@@ -6,7 +6,7 @@ function Intro() {
     return (
         <div className=' bg-white'>
             
-          <div className='max-w-[890px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
+          <div className='max-w-[890px] h-[80vh] md:h-[99vh] md:mt-[-96px] w-full mx-auto text-center flex flex-col justify-center'>
             <p className='text-black font-bold p-2'>
               I'M A SOFTWARE ENGINEER
             </p>
