@@ -4,6 +4,7 @@ import NavBar from './components/navBar';
 import Intro from './components/intro';
 import Aboutme from './components/aboutMe';
 import TaskBar from './components/taskBar';
+import Skills from './components/skills';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Intro />
         
 
-        <Aboutme />    
+        <Aboutme />  
+        <Skills />  
   
         <TaskBar/>
         
