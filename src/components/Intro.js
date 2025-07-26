@@ -19,7 +19,7 @@ function Intro() {
       <p className='text-black font-bold p-2 text-center'>
         Hi, I'M A SOFTWARE ENGINEER 
       </p>
-      <h1 className={`md:text-4xl sm:text-4xl text-2xl ml-16 font-bold md:py-6 text-${color}-700 transition-none`}>
+      <h1 className={`md:text-4xl sm:text-4xl text-2xl md:ml-16 text-center md:text-justify font-bold md:py-6 text-${color}-700 transition-none`}>
         Expertised @
         <ReactTyped
           className="ml-2 md:ml-3 "
