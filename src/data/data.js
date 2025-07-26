@@ -68,4 +68,4 @@ export const skills=[
 
 ];
 
-export const colors=["red","green","cyan"];
+export const colors=["red","green","cyan","gray"];
