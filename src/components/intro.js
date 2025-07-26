@@ -1,36 +1,54 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import { introString1, typeString } from "../data/data";
+import { introString1, typeString ,colors} from "../data/data";
+import { useState } from "react";
 
 function Intro() {
-    return (
-        <div className=' bg-white'>
-            
-          <div className='max-w-[890px] h-[80vh] md:h-[99vh] md:mt-[-96px] w-full mx-auto text-center flex flex-col justify-center'>
-            <p className='text-black font-bold p-2'>
-              I'M A SOFTWARE ENGINEER
-            </p>
-            <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 text-green-700'>
-              I deliver 
-              <ReactTyped className="ml-2 md:ml-3"
-                strings={typeString}
-                typeSpeed={40}    
-                backSpeed={30}
-                loop
-              />  
-            </h1>
-            <div>
-              <p className='md:text-5xl sm:text-4xl text-2xl font-bold py-4'>
-                {introString1}
-              </p> 
-            </div>
-            <button className='bg-green-700 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'><a href="https://www.linkedin.com/in/arunkumard0606/" target="_blank">Connect with me </a></button>
-        
-          </div>
-          
-        </div>
-        
-      );
+  const [color,setColor]=useState("green");
+  const handleColorChange = () => {
+    var random = Math.floor(Math.random() * colors.length);
+    setColor(colors[random]);
+  };
+  
+  return (
+  <div className='bg-white'>
+  <div className='max-w-[1200px] w-full mx-auto flex flex-col md:flex-row items-center justify-between h-[80vh] md:h-[99vh] md:mt-[-96px] px-4'>
+
+    {/* LEFT SIDE (Text Content) */}
+    <div className='flex-1 flex flex-col'>
+      <p className='text-black font-bold p-2 text-center'>
+        Hi, I'M A SOFTWARE ENGINEER 
+      </p>
+      <h1 className={`md:text-4xl sm:text-4xl text-2xl ml-16 font-bold md:py-6 text-${color}-700 transition-none`}>
+        Expertised @
+        <ReactTyped
+          className="ml-2 md:ml-3 "
+          strings={typeString}
+          typeSpeed={40}
+          backSpeed={30}
+          loop 
+        />
+      </h1>
+      <p className='md:text-5xl sm:text-4xl text-2xl font-bold py-4 text-center '>
+        {introString1}
+      </p>
+      <div className="text-center">
+      <button className={`bg-${color}-700 w-[200px] rounded-md font-medium my-6 py-3 text-white text-center`}>
+        <a href="https://www.linkedin.com/in/arunkumard0606/" target="_blank">
+          Connect with me
+        </a>
+      </button>
+      </div>
+    </div>
+    <div className='flex-1 flex justify-center'>
+      <img src ="Arun_new.png" onClick={()=>handleColorChange()} alt="Arun Image" className={`max-h-[350px] object-contain rounded-full  hover:shadow-${color}-800 shadow-xl transition-transform duration-100 hover:scale-105`} />
+    </div>
+
+  </div>
+</div>
+
+
+  );
 }
 
 export default Intro;

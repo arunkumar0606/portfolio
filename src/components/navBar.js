@@ -3,7 +3,7 @@ import "../css/navbar.css"
 
 function NavBar() {
     return (
-        <div class="flex justify-between p-1 bg-white ">
+        <div class="flex justify-between p-1 bg-white">
 
             <div className="font-cabin font-bold text-3xl  text-black text-70rem text-left pl-4 p-1 hover:text-green-800 transition-all duration-300">
                 <p>AK</p>
@@ -16,7 +16,7 @@ function NavBar() {
                 <div className="text-black font-cabin px-4 py-2  hover:text-green-800  duration-300">
                     <Link to="/projects">Projects </Link>
                 </div>
-
+               
             </div>
             
         </div>
