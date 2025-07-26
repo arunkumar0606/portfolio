@@ -1,9 +1,9 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import { introString1, typeString ,colors} from "../data/data";
+import { MAIN_BODY_STRING_3, TYPING_STRING ,colors} from "../data/data";
 import { useState } from "react";
 
-function Intro() {
+function MainBody() {
   const [color,setColor]=useState("green");
   const handleColorChange = () => {
     var random = Math.floor(Math.random() * colors.length);
@@ -23,19 +23,19 @@ function Intro() {
         Expertised @
         <ReactTyped
           className="ml-2 md:ml-3 "
-          strings={typeString}
+          strings={TYPING_STRING}
           typeSpeed={40}
           backSpeed={30}
           loop 
         />
       </h1>
       <p className='md:text-5xl sm:text-4xl text-2xl font-bold py-4 text-center '>
-        {introString1}
+        {MAIN_BODY_STRING_3}
       </p>
       <div className="text-center">
       <button className={`bg-${color}-700 w-[200px] rounded-md font-medium my-6 py-3 text-white text-center`}>
         <a href="https://www.linkedin.com/in/arunkumard0606/" target="_blank">
-          Connect with me
+          Connect with me!
         </a>
       </button>
       </div>
@@ -51,4 +51,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default MainBody;

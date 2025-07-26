@@ -1,5 +1,5 @@
-export const introString1="Over 3 years experience in the development field";
-export const typeString=["Java Backend.","React frontend."];
+export const MAIN_BODY_STRING_3="Over 3 years experience in the development field";
+export const TYPING_STRING=["Java Backend.","React frontend."];
 export const aboutMe="Software Engineer with over 3 years of experience. Started my career as a Java backend developer and have gained proficiency in multiple technologies and development environments. Throughout my career, I have worked with various clients, solving complex technical problems, and consistently delivering high-quality, scalable code. I have developed a strong understanding of software development life cycle (SDLC), from design to deployment, while ensuring optimal performance and user experience.I believe that technical skills are just a tool, and the true key to success lies in the ability to identify the root cause of any problems!";
 
 export const skills=[
