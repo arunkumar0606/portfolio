@@ -12,6 +12,7 @@ function MainBody() {
   
   return (
   <div className='bg-white'>
+
   <div className='max-w-[1200px] w-full mx-auto flex flex-col md:flex-row items-center justify-between h-[80vh] md:h-[99vh] md:mt-[-96px] px-4'>
 
     {/* LEFT SIDE (Text Content) */}
@@ -35,7 +36,7 @@ function MainBody() {
       <div className="text-center">
       <button className={`bg-${color}-700 w-[200px] rounded-md font-medium my-6 py-3 text-white text-center`}>
         <a href="https://www.linkedin.com/in/arunkumard0606/" target="_blank">
-          Connect with me!
+          Connect with me
         </a>
       </button>
       </div>

@@ -5,6 +5,7 @@ import MainBody from './components/MainBody.js';
 import Aboutme from './components/AboutMe.js';
 import TaskBar from './components/TaskBar.js';
 import Skills from './components/Skills.js';
+import { Certifications } from './components/Certifications.js';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
      <div className="min-h-screen ">
         <NavBar />
         <MainBody />
-        <Aboutme />  
-        <Skills />  
+        <Aboutme /> 
+        <Certifications/> 
+        <Skills /> 
         <TaskBar/>
       </div>
     </BrowserRouter>

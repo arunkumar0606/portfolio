@@ -6,8 +6,6 @@ function Skills() {
 
     return (
         <>
-
-
             <div class="pb-[230px] p-4 bg-white text-center">
                 <p class="text-black font-cabin text-4xl font-bold">
                     Skills

@@ -7,6 +7,17 @@ module.exports = {
         cabin: ['Cabin', 'sans-serif'],
         kanit:['kani'], // Define the Cabin font
       },
+      animation: {
+        'marquee-slow': 'marquee 20s linear infinite',
+        'marquee-medium': 'marquee 10s linear infinite',
+        'marquee-fast': 'marquee 5s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-150%)' },
+        },
+      },
     },
       
 
