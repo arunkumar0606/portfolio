@@ -5,7 +5,6 @@ import MainBody from './components/MainBody.js';
 import TaskBar from './components/TaskBar.js';
 import Skills from './components/Skills.js';
 import TimeLine from './components/TimeLine.js';
-import { Certifications } from './components/Certifications.js';
 
 function App() {
   return (
