@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         cabin: ['Cabin', 'sans-serif'],
-        kanit:['kani'], // Define the Cabin font
+        kanit:['kani'], 
       },
       animation: {
         'marquee-slow': 'marquee 20s linear infinite',

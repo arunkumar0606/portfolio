@@ -12,7 +12,7 @@ function MainBody() {
   
   return (
 
-  <div className="max-w-[1200px] w-full mx-auto flex flex-col md:flex-row items-center justify-between h-[80vh] md:h-[99vh] md:mt-[-96px] px-4 mb-9 sm:mb-0">
+  <div className="max-w-[1200px] w-full mx-auto flex flex-col md:flex-row items-center justify-between h-[80vh] md:h-[90vh] px-4 mb-9 sm:mb-0">
     {/* LEFT SIDE (Text Content) */}
     <div className='flex-1 flex flex-col '>
       <p className='text-black font-bold p-2 text-center mt-4 md:mt-0'>
