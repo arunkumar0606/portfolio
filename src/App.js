@@ -2,7 +2,6 @@ import { BrowserRouter } from 'react-router-dom';
 import './css/App.css';
 import NavBar from './components/NavBar.js';
 import MainBody from './components/MainBody.js';
-import Aboutme from './components/AboutMe.js';
 import TaskBar from './components/TaskBar.js';
 import Skills from './components/Skills.js';
 import TimeLine from './components/TimeLine.js';
@@ -16,8 +15,6 @@ function App() {
         <hr></hr>
         <MainBody />
         <TimeLine/>
-        <Aboutme /> 
-        <Certifications/> 
         <Skills /> 
         <TaskBar/>
       </div>
