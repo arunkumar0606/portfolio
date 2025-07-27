@@ -7,7 +7,7 @@ export const timelineItems = [
       title: "Systems Engineer",
       subtitle: "TCS",
       date: "2021 - Present",
-      description: ["Worked primarily in the Java 17 EE SpringBoot microservices developemnt.","Developed Real time apps using Spring JMS,Spring JPA,Spring AOP,Spring Web.","Developed Spring Batch applications for huge data processing.","Queried complex data from Oracle DB using SQL and Hibernate.","Implemented RESTful APIs for seamless integration with frontend applications.","Utilized Apigee Proxy for API management and security.",,"Delivered defectless products by Unit(Junit,Mockito),Integration and E2E testing.","Worked with AWS services/Linux servers using Jenkins/Bitbuket for deployment.","Worked for an US BFSI based company."],
+      description: ["Worked primarily in Java 17 EE and Spring Boot microservices development.","Developed real-time applications using Spring JMS, Spring JPA, Spring AOP, and Spring Web.","Built Spring Batch applications for large-scale data processing.","Queried complex data from Oracle DB using SQL and Hibernate.","Implemented RESTful APIs for seamless integration with frontend applications.","Utilized Apigee Proxy for API management and security.","Delivered defect-free products through unit (JUnit, Mockito), integration, and E2E testing.","Worked with AWS services and Linux servers, using Jenkins and Bitbucket for deployment.","Contributed to a US-based BFSI (Banking, Financial Services, and Insurance) client."],
       color: "bg-white-600",
     },
     {
@@ -15,13 +15,6 @@ export const timelineItems = [
       subtitle: "Sairam Engineering College",
       date: "2017 - 2021",
       description: ["Learnt programming languages : Java, Python and C.","Gained DSA Knowlege.","Gained Knowlege on CS fundamentals."],
-      color: "bg-white-600",
-    },
-    {
-      title: "HSC",
-      subtitle: "BVM",
-      date: "2015 - 2017",
-      description: ["Learnt Computer science basics."],
       color: "bg-white-600",
     },
   ];
