@@ -11,13 +11,11 @@ function MainBody() {
   };
   
   return (
-  <div className='bg-white'>
 
-  <div className='max-w-[1200px] w-full mx-auto flex flex-col md:flex-row items-center justify-between h-[80vh] md:h-[99vh] md:mt-[-96px] px-4'>
-
+  <div className="max-w-[1200px] w-full mx-auto flex flex-col md:flex-row items-center justify-between h-[80vh] md:h-[99vh] md:mt-[-96px] px-4">
     {/* LEFT SIDE (Text Content) */}
-    <div className='flex-1 flex flex-col'>
-      <p className='text-black font-bold p-2 text-center'>
+    <div className='flex-1 flex flex-col '>
+      <p className='text-black font-bold p-2 text-center mt-4 md:mt-0'>
         Hi, I'M A SOFTWARE ENGINEER 
       </p>
       <h1 className={`md:text-4xl sm:text-4xl text-2xl md:ml-16 text-center md:text-justify font-bold md:py-6 text-${color}-700 transition-none`}>
@@ -34,9 +32,9 @@ function MainBody() {
         {MAIN_BODY_STRING_3}
       </p>
       <div className="text-center">
-      <button className={`bg-${color}-700 w-[200px] rounded-md font-medium my-6 py-3 text-white text-center`}>
+      <button className={`bg-${color}-700 w-[200px] rounded-md font-medium my-6 py-3 text-white text-center transform hover:scale-105 transition-transform duration-300 `}>
         <a href="https://www.linkedin.com/in/arunkumard0606/" target="_blank">
-          Connect with me
+          Connect with me!
         </a>
       </button>
       </div>
@@ -46,7 +44,6 @@ function MainBody() {
     </div>
 
   </div>
-</div>
 
 
   );

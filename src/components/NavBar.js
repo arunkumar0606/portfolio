@@ -2,26 +2,38 @@ import { Link } from "react-router-dom";
 import "../css/navbar.css"
 
 function NavBar() {
+    
     return (
-        <div class="flex justify-between p-1 bg-white">
-
-            <div className="font-cabin font-bold text-3xl  text-black text-70rem text-left pl-4 p-1 hover:text-green-800 transition-all duration-300">
-                <p>AK</p>
-            </div>
-            <div className="flex text-right font-medium md:justify-end md:mr-[50px]">
-
-                <div className="text-black font-cabin md:px-4 px-2 py-2  hover:text-green-800 duration-300">
-                    <Link to="/">Home </Link>
-                </div>
-                <div className="text-black font-cabin px-4 py-2  hover:text-green-800  duration-300">
-                    <Link to="/projects">Projects </Link>
-                </div>
-               
-            </div>
+        <div className="flex justify-between p-4 items-center">
+          
+          {/* Logo */}
+          <div className="font-cabin font-extrabold text-4xl text-black pl-4 transition-transform duration-300 hover:scale-110 relative group">
+  AK
+</div>
+          {/* Navigation Links */}
+          <div className="flex font-bold text-lg space-x-8 pr-6">
             
+            <Link
+              to="/"
+              className="text-black font-cabin relative group hover:text-green-800 transition duration-300"
+            >
+              Projects
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-green-900 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+      
+            <a href="https://github.com/arunkumar0606" target="_blank"
+              
+              className="text-black font-cabin relative group hover:text-green-800 transition duration-300"
+            >
+              Github
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-green-900 transition-all duration-300 group-hover:w-full"></span>
+            
+        </a>
+          </div>
+          
         </div>
+      );
 
-    )
-}
+};
 
 export default NavBar

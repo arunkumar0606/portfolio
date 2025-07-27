@@ -5,6 +5,7 @@ import MainBody from './components/MainBody.js';
 import Aboutme from './components/AboutMe.js';
 import TaskBar from './components/TaskBar.js';
 import Skills from './components/Skills.js';
+import TimeLine from './components/TimeLine.js';
 import { Certifications } from './components/Certifications.js';
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
     <BrowserRouter>
      <div className="min-h-screen ">
         <NavBar />
+        <hr></hr>
         <MainBody />
+        <TimeLine/>
         <Aboutme /> 
         <Certifications/> 
         <Skills /> 
