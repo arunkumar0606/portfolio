@@ -114,7 +114,7 @@ export const certifications = [
   },
   {
     title: "Java Performance Tuning",
-    image: "/Java_Performance_certificate.png",
+    image: "/java_performance_cert.png",
     skills: "JVM, Performance Tuning, Garbage Collection, Profiling etc",
     link:"https://www.udemy.com/certificate/UC-9283ea0a-dd02-4eb5-aef0-b678759d7a6a/"
   },
