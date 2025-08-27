@@ -1,24 +1,25 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './css/App.css';
-import NavBar from './components/NavBar.js';
-import MainBody from './components/MainBody.js';
-import TaskBar from './components/TaskBar.js';
-import Skills from './components/Skills.js';
-import TimeLine from './components/TimeLine.js';
+
+import Home from './components/Home.jsx';
+import Layout from "./components/Layout";
+import Certification from "./components/Cert";
+import Projects from "./components/Projects.jsx";
+
 
 function App() {
   return (
     <BrowserRouter>
-     <div className="min-h-screen ">
-        <NavBar />
-        <hr></hr>
-        <MainBody />
-        <TimeLine/>
-        <Skills /> 
-        <TaskBar/>
-      </div>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="certifications" element={<Certification />} />
+          <Route path="projects" element={<Projects />} />
+        </Route>
+      </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
+
