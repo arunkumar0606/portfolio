@@ -9,7 +9,7 @@ function NavBar() {
         <Link to="/">AK</Link>
       </div>
       {/* Navigation Links */}
-      <div className="flex font-bold text-lg space-x-8 pr-6">
+      <div className="flex font-bold text-lg  space-x-3 md:space-x-8 pr-2 md:pr-6">
         <Link
           to="/"
           className="text-black font-cabin relative group hover:text-green-800 transition duration-300"

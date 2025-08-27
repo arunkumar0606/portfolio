@@ -101,13 +101,13 @@ export const skills = [
 
 export const certifications = [
   {
-    title: "Aws Certified Cloud practitioner",
+    title: "AWS Cloud Practitioner",
     image: "/aws_certified.png",
     skills: " EC2, Lambda, S3, VPC, RDS, IAM etc",
     link:"https://cp.certmetrics.com/amazon/en/public/verify/credential/b856d70020d34b7189a61b504b90b663"
   },
   {
-    title: "Redhat Certified",
+    title: "Redhat System Administrator",
     image: "/redhat_certified.png",
     skills: "Linux, System Administration, Shell Scripting etc",
     link:"https://rhtapps.redhat.com/verify?certId=200-028-868"

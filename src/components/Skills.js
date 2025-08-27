@@ -24,7 +24,7 @@ function Skills() {
                             data-aos="fade-left"
                             data-aos-delay={index * 70}
                         >
-                            <div className="w-28 h-20 flex items-center justify-center overflow-hidden">
+                            <div className="w-20  h-20 flex items-center justify-center overflow-hidden">
                                 <img
                                     src={skill.image}
                                     alt={skill.name}
